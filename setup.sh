@@ -46,4 +46,6 @@ ln -sf dotfiles/.emacs.d .
 heroku login
 ssh.keygen -t rsa
 heroku keys:add
-
+#Ponemos las credenciales de git
+git config --global user.name "Jose M. Mayo"
+git config --global user.email "jm_mayo_d@hotmail.com"
